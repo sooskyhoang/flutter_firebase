@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_firebase/models/brew.dart';
 
 class BrewTile extends StatelessWidget {
+  // brew object
   final Brew brew;
 
   const BrewTile({Key? key, required this.brew}) : super(key: key);
